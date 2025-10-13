@@ -160,7 +160,7 @@ public class JavaDB1 extends javax.swing.JFrame {
         p.setIdioma((String)cbb_idioma.getSelectedItem());
 //        
         PessoaDAO pDAO = new PessoaDAO();
-        pDAO.inserir(p);// TODO add your handling code here:
+        pDAO.inserir(p);
         
         limparFormulario();
     }//GEN-LAST:event_jButton2ActionPerformed

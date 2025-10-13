@@ -9,11 +9,11 @@
  * @author 2830482411004
  */
 public class Cliente {
-    public int id;
-    public String nome;
-    public String endereco;
-    public String email;
-    public String telefone;
+    private int id;
+    private String nome;
+    private String endereco;
+    private String email;
+    private String telefone;
     
     
     public int getId(){
@@ -48,6 +48,5 @@ public class Cliente {
         this.telefone = telefone;
      
     }
-    
     
 }

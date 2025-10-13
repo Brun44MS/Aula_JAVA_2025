@@ -1,3 +1,5 @@
+package com.comprasvendas.model;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -9,11 +11,11 @@
  * @author 2830482411004
  */
 public class Produtos {
-    public int id;
-    public String nome;
-    public String descricao;
-    public double preco_venda;
-    public int quantidade;
+    private int id;
+    private String nome;
+    private String descricao;
+    private double preco_venda;
+    private int quantidade;
 
     public int getId(){
         return id;
@@ -47,5 +49,9 @@ public class Produtos {
         this.quantidade = quantidade;
      
     }    
+
+    int getCodigo() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
