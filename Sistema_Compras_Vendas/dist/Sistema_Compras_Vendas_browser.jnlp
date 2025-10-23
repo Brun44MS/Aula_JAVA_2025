@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Sistema_Compras_Vendas_browser.jnlp">
+  <information>
+    <title>Sistema_Compras_Vendas</title>
+    <vendor>2830482411004</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Sistema_Compras_Vendas.jar" size="5756" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.18.jar" size="2330539" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="Menu"  name="Sistema_Compras_Vendas" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
